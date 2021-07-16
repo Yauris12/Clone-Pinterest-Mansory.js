@@ -45,9 +45,17 @@ body {
 
 /* HEADER*/
 
+.container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: var(--colorWhite);
+}
+
 .navbar {
     display: flex;
-    margin: 2rem 3rem;
+    margin: 0 3rem;
+    padding: 2rem 0;
     align-items: center;
 }
 
